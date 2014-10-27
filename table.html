@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+File: /weblab.cs.uml.edu/~damin/multiplication.html
+91.461 Assignment: creating an Interactive Dynamic Table
+Disha Amin, UMass Lowell Computer Science, disha_amin@student.uml.edu
+Copyright (c) 2014 by Disha Amin. All rights reserved. May be freely
+copied or excerpted for educational purposes with credit to the author.
+updated by Disha Amin on October 23, 2014 at 11:22 AM
+-->
+<html>
+<head>
+  <title>Multiplication Table</title>
+  <style>
+    .error-message 
+    {
+      color:Red;
+    }
+    
+    #theTable
+    {
+      color: black;
+    }
+    /* This is a formating style for an table.*/
+    #theTable tbody tr td
+    {
+      width: 32px;
+      height: 32px;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+    }
+    #theTable, #theTable tbody tr th, #theTable tbody tr td
+    {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    #theTable tbody tr:first-child td
+    {
+      background-color: black;
+      color: white;
+    }
+    
+    #theTable tbody tr td:first-child
+    {
+      background-color: black;
+      color: white;
+    }
+    #theTable tbody tr:first-child td:first-child
+    {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <form id="theForm">
+  Rows ranging from
+  <input name="rLow" />through
+  <input name="rHigh" />
+  <br />
+  Columns ranging from
+  <input name="cLow" />through
+  <input name="cHigh" />
+  <br />
+  <input type="button" name="go" value="Generate table" />
+  </form>
+  <div class="error-message" id="error"></div>
+	
+	
+  </div>
+  <br />
+  <br />
+  <div id="result">
+  </div>
+  <script src="tablescript.js"></script>
+</body>
+</html>

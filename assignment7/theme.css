@@ -1,28 +1,32 @@
-/* The CSS theme for the Navigation Example site. */
-
+/*
+File: http://weblab.cs.uml.edu/~damin/assignment7
+91.461 Assignment: Creating a Single-Page Navigation Interface
+Disha Amin,UMass Lowell Computer Science,disha_amin@student.uml.edu
+Copyright (c) 2014 by Disha Amin. All rights reserved. May be freely
+copied or excerpted for educational purposes with credit to the author.
+updated by Disha Amin on November 6,2014 at 11:22 AM
+*/
+/* The CSS theme for the Navigation Example site. Credit to: Curran Kelleher */
 /* Use Google Fonts. */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-/* Style the navigation bar links.  */ 
-#navbar a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
-  margin: 0px 10px 0px 10px;
-  padding: 0px 8px 0px 8px;
-  color: black;
-  text-decoration: none;
-
-  border: 2px solid;
-  border-color: white;
-  border-radius: 20px;
+/* Style the navigation bar links. */ #navbar a {
+    font-family:'Open Sans',sans-serif;
+    font-size:1.5em;
+    margin:0 10px;
+    padding:0 8px;
+    color:#000;
+    text-decoration:none;
+    border:2px solid;
+    border-color:#fff;
+    border-radius:20px
 }
 
 /* Give the user an affordance that each link is clickable. */
 #navbar a:hover {
-  border-color: black;
+    border-color:#000
 }
 
 /* Style the active page link. */
-#navbar a.active{
-  border-color: gray;
+#navbar a.active {
+    border-color:gray
 }

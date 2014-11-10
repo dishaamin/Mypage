@@ -1,26 +1,29 @@
 <!DOCTYPE html>
+<!--
+File: http://weblab.cs.uml.edu/~damin/assignment7/index.html
+91.461 Assignment: Creating a Single-Page Navigation Interface
+Disha Amin, UMass Lowell Computer Science, disha_amin@student.uml.edu
+Copyright (c) 2014 by Disha Amin. All rights reserved. May be freely
+copied or excerpted for educational purposes with credit to the author.
+updated by Disha Amin on November 6, 2014 at 11:22 AM
+-->
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Navigation Example</title>
 
-    <!-- The CSS theme for the site. -->
-    <link rel="stylesheet" href="theme.css" />
+    <title>Navigation Example</title><!-- The CSS theme for the site. -->
+    <link href="theme.css" rel="stylesheet">
+</head>
 
-  </head>
-  <body>
-
+<body>
     <!-- Navigation links -->
-    <div id="navbar">
-      <a href="#home">Home</a>
-      <a href="#assignment">Assignment</a>
-      <a href="#contact">Contact</a>
-    </div>
-	
-    <!-- Dynamic content will be placed here by JavaScript. -->
-    <div id="content"></div>
 
-    <!-- The JavaScript code for dynamic behavior. -->
+    <div id="navbar">
+        <a href="#home">Home</a> <a href="#assignment">Assignment</a> <a href=
+        "#contact">Contact</a>
+    </div><!-- Dynamic content will be placed here by JavaScript. -->
+
+    <div id="content"></div><!-- The JavaScript code for dynamic behavior. -->
     <script src="navigation.js"></script>
-  </body>
+</body>
 </html>

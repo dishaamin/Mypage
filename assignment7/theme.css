@@ -6,27 +6,24 @@ Copyright (c) 2014 by Disha Amin. All rights reserved. May be freely
 copied or excerpted for educational purposes with credit to the author.
 updated by Disha Amin on November 6,2014 at 11:22 AM
 */
-/* The CSS theme for the Navigation Example site. Credit to: Curran Kelleher */
-/* Use Google Fonts. */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-/* Style the navigation bar links. */ #navbar a {
-    font-family:'Open Sans',sans-serif;
+
+/* Style the navigation bar links. */ 
+#navbar a {
     font-size:1.5em;
     margin:0 10px;
     padding:0 8px;
     color:#000;
     text-decoration:none;
-    border:2px solid;
-    border-color:#fff;
-    border-radius:20px
+    border:1px solid;
+    border-color:#7B68EE;
 }
 
 /* Give the user an affordance that each link is clickable. */
 #navbar a:hover {
-    border-color:#000
+    border-color:#AFEEEE
 }
 
 /* Style the active page link. */
 #navbar a.active {
-    border-color:gray
+    border-color:pink
 }
